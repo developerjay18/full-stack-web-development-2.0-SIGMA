@@ -1,0 +1,34 @@
+<!-- Que - 9
+Create a simple webpage with a form for a user to enter their personal information. The form should contain three input fields with the labels "first Name", "last Name", and "Email". The first input field should have a tabindex value of 2. The second input field should have a tabindex value of 1. The third input field should have a tabindex value of 4. The form should have a submit button with the label "submit" and a tabindex value of 3. observe the behaviors of tab index on your webpage. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question 9</title>
+  </head>
+  <body>
+    <header>
+      <h1>Personal information</h1>
+    </header>
+    <main>
+      <form action="#">
+        <label for="f-name">First name</label>
+        <br />
+        <input type="text" name="f-name" id="f-name" tabindex="2" />
+        <br />
+        <label for="l-name">Lname</label>
+        <br />
+        <input type="text" name="l-name" id="l-name" tabindex="1" />
+        <br />
+        <label for="email">Email</label>
+        <br />
+        <input type="text" name="email" id="email" tabindex="4" />
+        <br />
+        <button type="submit" tabindex="3">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>

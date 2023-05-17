@@ -1,0 +1,70 @@
+<!-- Que - 8
+Create a simple webpage with semantic HTML which has the header, main, and footer sections.
+The header section must contain links to navigate to different sections of the webpage.
+The main section must contain three subsections about what is HTML. What is Semantic HTML and a list of commonly used semantic tags.
+In the end, the footer section must contain your name. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question 8</title>
+  </head>
+  <body style="font-size: 1.3rem;">
+    <header style="text-align: center;" id="home">
+      <div class="links">
+        <a href="#home" style="text-decoration: none;margin: 0px 20px ;">Home</a>
+        <a href="#main" style="text-decoration: none;margin: 0px 20px ;">Main </a>
+        <a href="#footer" style="text-decoration: none;margin: 0px 20px ;">Footer</a>
+      </div>
+    </header>
+    <main id="main">
+        <section>
+            <h3>What is HTML ? </h3>
+            <p>
+                HTML, short for HyperText Markup Language, is the standard markup language used for creating web pages and applications. It provides a structured format for organizing and presenting content on the internet. HTML uses a system of tags to define the structure, layout, and appearance of elements within a web page. These tags specify headings, paragraphs, images, links, forms, and more. Alongside CSS (Cascading Style Sheets) and JavaScript, HTML forms the foundation of the World Wide Web, enabling the creation of visually appealing and interactive websites. It allows information to be shared and accessed globally, connecting users and facilitating the exchange of data and media across digital platforms.
+            </p>
+        </section>
+        <section>
+            <h3>What is semantic HTML</h3>
+            <p>
+                Semantic HTML refers to the practice of using HTML elements that accurately convey the meaning and structure of the content they enclose. It focuses on using elements with meaningful names and purpose, aiding both humans and search engines in understanding the document's organization. By utilizing semantic tags like `header`, `nav`, `article`, and `footer`, developers can create web pages that are accessible, maintainable, and optimized for search engine optimization (SEO). Semantic HTML improves the overall structure and clarity of the code, making it easier to read and navigate, enhancing the user experience, and providing a solid foundation for future design and development modifications.
+            </p>
+        </section>
+        <section>
+            <h3>Commonly used Semantic tags</h3>
+            <p>
+                <ul>
+                    <li>
+                        "header": Represents the introductory content or a container for the introductory content of a section or page.
+                    </li>
+                    <li>
+                        "nav": Defines a section of navigation links.
+                    </li>
+                    <li>
+                        "main": Represents the main content area of a document or webpage.
+                    </li>
+                    <li>
+                        "article": Represents a self-contained composition, such as a blog post, news article, or a forum pos
+                    </li>
+                    <li>
+                        "aside": Represents content that is tangentially related to the main content, such as sidebars or pull quotes.
+                    </li>
+                    <li>
+                        "figure": Represents self-contained content, such as images, diagrams, or code snippets, that can be referenced within the main content.
+                    </li>
+                    <li>
+                        "figcaption": Represents the caption or description for a figure element.
+                    </li>
+                </ul>
+            </p>
+        </section>
+    </main>
+    <footer style="text-align: center;" id="footer">
+        <p>Copyright &copy; 2023 Jay rai</p>
+        <p>Product by Jay Rai development</p>
+    </footer>
+  </body>
+</html>

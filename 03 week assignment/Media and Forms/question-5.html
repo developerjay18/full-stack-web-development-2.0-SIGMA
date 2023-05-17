@@ -1,0 +1,24 @@
+<!-- Que - 5
+Create a <video> tag that automatically starts playing a sunrise video when the page loads. The video tag should have controls to pause, play, and adjust the volume. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question 5</title>
+  </head>
+  <body>
+    <main>
+      <!-- Due to chrome restrictions video has to be muted for applying "autoplay" attribute. -->
+      <video
+        src="./media/sunrise.mp4"
+        controls
+        width="500px"
+        autoplay
+        muted
+      ></video>
+    </main>
+  </body>
+</html>
