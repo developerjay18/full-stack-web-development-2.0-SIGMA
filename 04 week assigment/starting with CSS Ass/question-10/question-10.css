@@ -1,0 +1,17 @@
+body {
+  background-color: #000;
+  text-align: center;
+}
+
+.bisque-text {
+  color: #ffe4c4;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
