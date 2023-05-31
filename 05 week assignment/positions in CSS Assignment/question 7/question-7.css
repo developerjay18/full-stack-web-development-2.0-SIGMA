@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    position: relative;
+}
+
+.card {
+  width: 250px;
+  height: 350px;
+  text-align: center;
+  border-radius: 10px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.card:hover{
+    z-index: 1;
+}
+
+.card h3 {
+  padding: 20px 0;
+}
+
+.card img {
+  width: 200px;
+  height: 250px;
+}
+
+.card-1{
+    background-color: #ffff00;
+    top:20px;
+    left: 20px;
+}
+.card-2{
+    background-color: #ff4500;
+    top: 80px;
+    left: 40px;
+}
+.card-3{
+    background-color: #008000;
+    top: 140px;
+    left: 60px;
+}

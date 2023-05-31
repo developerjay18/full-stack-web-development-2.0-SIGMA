@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* main design */
+.container {
+  background-color: #100c07;
+  color: #ffffff;
+  height: 100vh;
+}
+
+/* left-side design */
+.content {
+  width: 60%;
+  float: left;
+  height: 100%;
+  padding: 200px 30px 50px 30px;
+}
+
+.content .heading {
+  font-size: 50px;
+}
+
+.content .para {
+  font-size: 18px;
+  margin: 15px 0 40px 0;
+}
+
+.content .btn {
+  background-color: #5a4bda;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* right-side design */
+.container img {
+  width: 40%;
+  margin-top: 10%;
+}
