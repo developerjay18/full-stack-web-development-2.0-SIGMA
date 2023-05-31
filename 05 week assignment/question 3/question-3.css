@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* main design */
+.container {
+  width: 28%;
+  border: 1px solid #000;
+}
+
+/* top content design  */
+.logo-box {
+  text-align: center;
+}
+
+.logo-box img {
+  margin: 20px 0;
+}
+
+/* middle content design  */
+.title-line p {
+  text-align: center;
+  margin: 10px 0 20px 0;
+}
+
+/* bottom content design  */
+.columns-list {
+  padding: 0 10px;
+}
+
+.column {
+  margin: 20px 0;
+}
+
+.float-left {
+  color: #5471cf;
+  float: left;
+  font-weight: bold;
+  margin-right: 20px;
+  width: 50%;
+}

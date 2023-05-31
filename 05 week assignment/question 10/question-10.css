@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* course design */
+.course-content {
+  padding: 10px;
+}
+
+.course-content article {
+  margin-bottom: 30px;
+}
+
+/* modal design */
+.black-bg {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #000;
+  opacity: 0.5;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 60%;
+  margin: 10px auto;
+  background-color: #fff;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.modal .modal-head {
+  margin: 20px 0;
+}
+
+.modal-head h1 {
+  padding-bottom: 20px;
+}
+
+.modal-terms {
+  padding: 10px;
+  border-bottom: 1px solid #8a8888;
+  max-height: 350px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-bottom: 10px;
+}
+
+.modal-submissions {
+  text-align: left;
+  padding: 10px 0 20px 20px;
+}
+
+form button {
+  background-color: #5a4bda;
+  color: #fff;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: block;
+  font-size: 17px;
+}

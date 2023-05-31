@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  position: relative;
+  margin-top: 20%;
+  margin-left: 40%;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* big button design */
+.big-btn button {
+  background-color: #ff6666;
+  border: none;
+  padding: 20px 50px;
+  font-size: 30px;
+  border-radius: 7px;
+}
+
+/* small button design */
+.small-btn button {
+  background-color: #242b2e;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 7px;
+  position: absolute;
+  left: 180px;
+  bottom: 55px;
+}

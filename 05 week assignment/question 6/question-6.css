@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .side-bar {
+  background-color: #242b2e;
+  height: 100vh;
+  width: 10%;
+  float: left;
+}
+
+.main-bar {
+  background-color: #1f1f1f;
+  height: 100vh;
+  width: 90%;
+  float: right;
+}
+
+/* side bar designs */
+.company-logo .logo {
+  width: 100%;
+  background-color: #5da3fa;
+}
+
+.nav-items-list > .nav-item {
+  background-color: #242b2e;
+  padding: 10px 20px;
+  border-bottom: 1px dashed #0d1011;
+}
+
+.nav-items-list > .nav-item > .nav-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* main bar designs */
+.main-bar {
+  padding: 0 40px;
+  position: relative;
+}
+article h1 {
+  text-align: center;
+  color: #5a4bda;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+article p {
+  color: #ffffff;
+  font-size: 17px;
+}
+
+.banner-box {
+  width: 100%;
+  text-align: center;
+  margin: 40px auto;
+}
+
+.banner-box img {
+  width: 500px;
+}
+
+/* chat-bot design */
+.chat-bot {
+  width: 40px;
+  background-color: #575353;
+  border-radius: 50%;
+  position: fixed;
+  left: 96%;
+  top: 94%;
+  cursor: pointer;
+}
