@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #202124;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* heading design  */
+.container > .search-engine > h1 {
+  font-size: 7rem;
+  margin-bottom: 5%;
+}
+
+/* search bar design  */
+.container > .search-bar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #555555;
+  border-radius: 50px;
+  justify-content: space-around;
+  padding: 5px;
+  width: 70%;
+}
+
+.container > .search-bar > .search-icon > img {
+  width: 30px;
+}
+
+.container > .search-bar > .input-search-bar {
+  width: 80%;
+}
+
+.container > .search-bar > .input-search-bar > input {
+  background-color: #202124;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  font-size: 18px;
+}
+.container > .search-bar > .input-search-bar > input:hover,
+.container > .search-bar > .input-search-bar > input:focus {
+  border: none;
+  outline: none;
+}
+
+.container > .search-bar > .mike-icon > img {
+  width: 30px;
+}
+
+.container > .search-bar > .lens-icon > img {
+  width: 30px;
+}

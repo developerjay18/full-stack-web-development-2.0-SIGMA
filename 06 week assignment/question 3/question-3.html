@@ -1,0 +1,90 @@
+<!-- Que - 3
+Create a simple footer using CSS flexbox as shown in the below image.
+a) The footer must contain some logos, email, and navigation links.
+b) The position of the footer must be fixed to the bottom. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question 3</title>
+    <!-- linking my CSS file -->
+    <link rel="stylesheet" href="./question-3.css" />
+  </head>
+  <body>
+    <!-- container -->
+    <div class="container">
+      <!-- sub-containers  -->
+
+      <!-- sub container 1 -->
+      <div class="sub-container sb-container-1">
+        <!-- heading section  -->
+        <div class="c-logo head">
+          <img src="./assets/company-logo.png" alt="company-logo" />
+        </div>
+        <!-- content section  -->
+        <div class="main">
+          <div class="section info">
+            <p>
+              <span class="info-title">Email us:</span> <br />
+              <span class="info-desc">support@pwskills.com</span>
+            </p>
+          </div>
+          <div class="section trademark">
+            <img src="./assets/iso-9001-2015.svg" alt="trademark-logo" />
+            <p>ISO 9001</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- sub container 2 -->
+      <div class="sub-container sb-container-2">
+        <!-- heading section -->
+        <div class="head text-head">
+          <h3>PW Skills</h3>
+        </div>
+        <hr />
+        <!-- content section -->
+        <div class="section sb-2">
+          <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#"> Contact us</a></li>
+          </ul>
+        </div>
+        <div class="section sb-2">
+          <ul>
+            <li><a href="#">FAQ's</a></li>
+            <li><a href="#">Job Assistance</a></li>
+          </ul>
+        </div>
+        <div class="section sb-2">
+          <ul>
+            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#">Terms and Conditions</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- sub container 3 -->
+      <div class="sub-container sb-container-3">
+        <!-- heading section  -->
+        <div class="head text-head">
+          <h3>Products</h3>
+        </div>
+        <hr />
+        <!-- content section  -->
+        <div class="section sb-3">
+          <ul>
+            <li><a href="#">Pw Skills lab</a></li>
+            <li><a href="#">Job portal</a></li>
+            <li><a href="#">Experience portal</a></li>
+            <li><a href="#">Become an affiliate</a></li>
+            <li><a href="#">Hall of fame</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
