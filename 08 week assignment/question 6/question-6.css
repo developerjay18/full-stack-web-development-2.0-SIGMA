@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  position: relative;
+}
+
+h3 {
+  font-size: 1.5rem;
+  padding-bottom: 20px;
+}
+
+.grey {
+  color: #7c7c7d;
+}
+
+/* footer design */
+footer {
+  position: fixed;
+  display: flex;
+  padding: 5% 2%;
+  background-color: #121315;
+  color: #fff;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  justify-content: space-evenly;
+}
+
+/* one-card box design */
+.one-card {
+  width: 33%;
+}
+
+.one-card p {
+  line-height: 30px;
+  padding-right: 30px;
+}
+
+/* links box design */
+.links {
+  display: flex;
+  width: 30%;
+  padding-right: 5%;
+  justify-content: space-between;
+}
+
+.links li {
+  list-style: none;
+  padding: 10px;
+}
+
+/* news letter design */
+.news-letter {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.news-letter input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.news-letter button {
+  padding: 10px;
+  border: none;
+  background-color: #1893f7;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* media queires for small screen 576 px */
+@media screen and (max-width: 576px) {
+  footer {
+    flex-direction: column;
+    row-gap: 40px;
+    position: static;
+    padding-left: 20px;
+  }
+
+  .one-card,
+  .links,
+  .news-letter {
+    width: 100%;
+  }
+
+  .links {
+    flex-direction: column;
+    row-gap: 40px;
+  }
+
+  .news-letter button,
+  .news-letter input {
+    padding: 15px;
+  }
+}
