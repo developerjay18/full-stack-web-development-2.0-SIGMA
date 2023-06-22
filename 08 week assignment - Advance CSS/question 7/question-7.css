@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+button {
+  border: none;
+  padding: 15px 25px;
+  border-radius: 5px;
+  background: linear-gradient(to left, #3c35c3, #4567dd 70%);
+  color: #fff;
+  font-size: 1.1rem;
+  animation: upanddown 0.6s ease-in 0s infinite alternate-reverse;
+}
+
+@keyframes upanddown {
+  from {
+    transform: translateY(-20px);
+  }
+  to {
+    transform: translateY(20px);
+  }
+}
