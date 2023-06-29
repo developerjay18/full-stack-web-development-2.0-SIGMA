@@ -1,1 +1,12 @@
-Hello world!
+Subject: Git Repository Linkage Successful - FSWD 2.0 Course
+
+Hell0 Friends,
+
+I hope this message finds you well. I wanted to inform you that I have successfully linked the repository to mine local computer's Assignment folder. From now on, all commits and uploads in this repository will be done exclusively using Git commands.
+
+If you encounter any issues or have any questions regarding the Git implementation, please don't hesitate to reach out to me.
+
+Best regards,
+
+Jay Rai
+FSWD 2.0 Batch Mate
