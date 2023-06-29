@@ -1,0 +1,69 @@
+<!-- Que - 2 
+Imagine you are a web developer working for a creative agency that specializes in building visually appealing and interactive websites. The agency has recently received a client request to create a landing page similar to the design of the one-page website: https://www.getonecard.app/. The client wants to showcase a video prominently on the page to engage visitors.
+
+Your task is to create a simple webpage that replicates the one-page landing page design, including a responsive layout and an HTML video. The below images are for your reference. Some browsers don't allow you to play videos without the controls attribute. So, you can add controls here, we will learn how to play a video without the controls attribute in the later sections,
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question 2</title>
+    <!-- linking my CSS -->
+    <link rel="stylesheet" href="./question-2.css" />
+  </head>
+  <body>
+    <!-- navbar starts here -->
+    <nav>
+      <div class="logo">
+        <img src="./assets/logo.png" alt="company-logo" />
+      </div>
+      <div class="links">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="login">
+        <button class="login-btn">Login</button>
+      </div>
+      <div class="hamburger-menu">
+        <div class="line line-1"></div>
+        <div class="line line-2"></div>
+        <div class="line line-3"></div>
+      </div>
+    </nav>
+    <!-- navbar endss here -->
+
+    <!-- main section starts here -->
+    <main>
+      <div class="container">
+        <!-- content area starts here -->
+        <div class="content">
+          <h2>Say Hi To</h2>
+          <h1>One Card</h1>
+          <p class="sponsers">Co-branded Card issuers:</p>
+          <div class="image">
+            <img src="./assets/sponsers.png" alt="sponsers" />
+            </div>
+          <p class="content-text">
+            India's best metal credit card. Built with full-stack tech. Backed
+            by the principles of simplicity, transparency, and giving back
+            control to the user.
+          </p>
+        </div>
+        <!-- content area ends here -->
+
+        <!-- video area starts here -->
+        <div class="video">
+            <video src="./assets/demo_video.mp4" controls autoplay></video>
+        </div>
+        <!-- video area ends here -->
+      </div>
+    </main>
+    <!-- main section ends here -->
+  </body>
+</html>

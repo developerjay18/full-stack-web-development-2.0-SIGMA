@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* header design  */
+header {
+  padding: 5px 5%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: 10vh;
+}
+
+header > nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header > nav > .logo {
+  display: flex;
+  align-items: center;
+}
+
+header > nav > .logo > img {
+  width: 35px;
+}
+
+header > nav > .logo > .logo-name {
+  font-size: 20px;
+  margin-left: 10px;
+  color: #5f6368;
+}
+
+.buttons > .btn {
+  padding: 13px 18px;
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: 17px;
+  cursor: pointer;
+  background-color: #fff;
+  border: none;
+  color: #1a73e8;
+  border-radius: 6px;
+}
+
+.buttons > .btn2 {
+  border: 1px solid #bbbbbb;
+}
+
+.buttons > .btn3 {
+  border: none;
+  background-color: #1a73e8;
+  color: #fff;
+}
+
+/* main content design  */
+.container {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+
+.container > .left-div {
+  width: 50vw;
+  padding: 5%;
+}
+
+.left-div > h1 {
+  font-size: 4rem;
+  font: 400;
+}
+
+.left-div > p {
+  color: #5f6368;
+  padding: 6% 0;
+}
+
+.container > .left-div > .buttons > .btn3 {
+  margin-left: 0;
+}
+
+.container > .right-div {
+  width: 50vw;
+  overflow: hidden;
+}
+
+.container > .right-div > img {
+  width: 100%;
+}

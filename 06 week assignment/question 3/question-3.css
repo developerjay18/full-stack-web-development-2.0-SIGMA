@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  position: relative;
+}
+
+.container {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #1b2124;
+  color: #fff;
+  display: flex;
+  padding: 40px 10% 10px 10%;
+  justify-content: space-between;
+}
+
+/* sub container design  */
+.sub-container {
+  width: 30%;
+}
+
+.sub-container > .head {
+  padding: 15px 0;
+}
+
+.sub-container > .text-head {
+  font-size: 25px;
+  padding-top: 24px;
+  padding-bottom: 35px;
+}
+
+.sub-container > hr {
+  color: #f6a655;
+  background-color: #f6a655;
+  width: 80%;
+  border: 1px solid #f6a655;
+  margin-bottom: 8%;
+}
+
+/* sub container 1 design */
+.sb-container-1 > .head > img {
+  width: 150px;
+}
+
+.sb-container-1 > .main > .section > p > .info-title {
+  font-weight: bold;
+}
+
+.sb-container-1 > .main > .trademark > img {
+  padding: 10% 0;
+}
+
+/* sub container 2 design  */
+.sb-container-2 {
+  width: 23%;
+}
+
+.sb-container-2 > .sb-2 > ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  align-items: center;
+}
+
+.sb-container-2 > .sb-2 > ul > li {
+  list-style: none;
+}
+
+.sb-container-2 > .sb-2 > ul > li:nth-child(2) {
+  width: 80px;
+}
+
+.sb-container-2 > .sb-2 > ul > li > a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* sub container 3 design  */
+.sb-container-3 {
+  width: 23%;
+}
+
+.sb-container-3 > .sb-3 > ul > li {
+  list-style: none;
+  padding: 9px 0;
+}
+
+.sb-container-3 > .sb-3 > ul > li > a {
+  text-decoration: none;
+  color: #fff;
+}

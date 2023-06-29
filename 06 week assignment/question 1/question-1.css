@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 100vh;
+  align-content: space-between;
+}
+
+.image-container > img {
+  width: 24vw;
+  height: 200px;
+  border: 2px solid #000;
+}
