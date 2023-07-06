@@ -1,0 +1,123 @@
+<!-- Que - 6
+Sometimes, instead of using static images, CSS can provide a more flexible solution. One such example is designing a default profile picture using the first letter of the user's name. In this coding challenge, utilize tailwind CSS properties to achieve the desired output described below. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question 6</title>
+    <!-- linking my CSS file -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- header starts here -->
+    <header>
+      <h1 class="text-4xl font-bold text-center py-3">
+        The Real Leadership Lessons of Steve Jobs
+      </h1>
+      <p class="text-center text-slate-500">
+        six month after job's death, the author of his best selling biography
+        identifies the practices that every CEO can try to emulate.
+        <span class="text-black font-bold">by walter Isaacson.</span>
+      </p>
+    </header>
+    <!-- header ends here -->
+
+    <!-- main starts here -->
+    <main>
+      <!-- ->>>> cover image starts -->
+      <div class="cover-image flex justify-center my-4">
+        <img
+          src="../src/assets/cover-image.jpg"
+          alt="cover-image"
+          class="rounded-xl w-[40%] object-cover"
+        />
+      </div>
+      <!-- ->>>> cover image starts -->
+
+      <!-- ->>>> article starts  -->
+      <div class="article w-[70%] mx-auto my-5 font-mono">
+        <p>
+          <span class="font-bold text-lg">
+            His saga is the entrepreneurial creation myth
+          </span>
+          writ large: Steve Jobs cofounded Apple in his parents' garage in 1976,
+          was ousted in 1985, returned to rescue it from near bankruptcy in
+          1997, and by the time he died, in October 2011, had built it into the
+          world's most valuable company.Along the way he helped to transform
+          seven industries: personal computing, animated movies, music, phones,
+          tablet computing, retail stores, and digital publishing. He thus
+          belongs in the pantheon of America's great innovators, along with
+          Thomas Edison, Henry Ford, and Walt Disney. None of these men was a
+          saint, but long
+        </p>
+      </div>
+      <!-- ->>>> article ends  -->
+
+      <!-- ->>>> quote starts here -->
+      <div class="quote my-10 flex justify-center">
+        <div class="inner-container text-center border-l-2 border-black pl-4">
+          “The people who are crazy enough to think they can change the world
+          are the ones who do.”
+          <br />
+          — Apple's “Think Different” commercial, 1997
+        </div>
+      </div>
+      <!-- ->>>> quote ends here -->
+
+      <!-- article starts here -->
+      <div
+        class="article w-[70%] grid grid-flow-col mx-auto h-[53vh] overflow-hidden my-[5%]"
+      >
+        <div class="content">
+          <p>
+            One of the last times | saw him, after | had finished writing most
+            of the book, | asked him again about his tendency to be rough on
+            people. “Look at the results,” he replied. “These are all smart
+            people | work with, and any of them could get a top job at another
+            place if they were truly feeling brutalized. But they don't.” Then
+            he paused for a few moments and said, almost wistfully, “And we got
+            some amazing things done.” Indeed, he and Apple had had a string of
+            hits over the past dozen years that was greater than that of any
+            other innovative company in modern times: iMac, iPod, iPod nano,
+            iTunes Store, Apple Stores, MacBook, iPhone, iPad, App Store, OS X
+            Lion—not to mention every Pixar film. And as he battled his final
+            illness, Jobs was surrounded by an intensely loyal cadre of
+            colleagues who had been inspired by him for years and a very loving
+            wife, sister, and four children.
+          </p>
+        </div>
+        <div class="article-image pl-8">
+          <img
+            src="../src/assets/article-image.jpg"
+            alt="article-image"
+            class="object-cover"
+          />
+        </div>
+      </div>
+      <!-- ->>>> article ends here -->
+
+      <!-- ->>>> review-card starts here -->
+      <div
+        class="review-card flex justify-center w-[50%] mx-auto items-center my-8"
+      >
+        <div
+          class="profile-img mr-10 bg-[#86efac] p-5 rounded-full text-4xl font-bold"
+        >
+          M
+        </div>
+        <div class="profile-review font-mono">
+          <p>
+            Walter Isaacson, the CEO of the Aspen Institute, is the author of
+            Steve Jobs and of biographies of Henry Kissinger, Benjamin Franklin,
+            and Albert Einstein.
+          </p>
+        </div>
+      </div>
+      <!-- ->>>> review-card ends here -->
+    </main>
+
+    <!-- main ends here -->
+  </body>
+</html>

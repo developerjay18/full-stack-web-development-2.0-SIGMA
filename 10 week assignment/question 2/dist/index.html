@@ -1,0 +1,41 @@
+<!-- Que - 2
+Moving forward with the design of our blog webpage, let's explore images, layouts, and borders. By utilizing the flex and border properties offered by tailwind CSS, aim to achieve the desired output as described below. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question 2</title>
+    <!-- linking my CSS file -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- header starts here -->
+    <header>
+      <h1 class="text-4xl font-bold text-center py-3">
+        The Real Leadership Lessons of Steve Jobs
+      </h1>
+      <p class="text-center text-slate-500">
+        six month after job's death, the author of his best selling biography
+        identifies the practices that every CEO can try to emulate.
+        <span class="text-black font-bold">by walter Isaacson.</span>
+      </p>
+    </header>
+    <!-- header ends here -->
+
+    <!-- main starts here -->
+    <main>
+      <!-- ->>>> cover image starts -->
+      <div class="cover-image flex justify-center my-4">
+        <img
+          src="../src/assets/cover-image.jpg"
+          alt="cover-image"
+          class="rounded-xl w-[40%] object-cover"
+        />
+      </div>
+      <!-- ->>>> cover image starts -->
+    </main>
+    <!-- main ends here -->
+  </body>
+</html>
