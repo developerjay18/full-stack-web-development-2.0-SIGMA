@@ -1,0 +1,42 @@
+<!-- Que - 1
+Let's say we need to design a website for a stock market broker website. You are tasked with creating a landing page for a stock market broker website. Your team lead has assigned you the initial responsibility of designing a straightforward navigation bar. Note that there should be no custom CSS and the output must be achieved only using Tailwind CSS. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>question 1</title>
+    <!-- linking my CSS file -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- fontawesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- navbar starts -->
+    <nav class="flex justify-between px-2 py-2 bg-[#212224] items-center">
+      <div class="logo w-10 flex items-center gap-2 font-bold">
+        <img src="./assets/logo.jpg" alt="logo" class="rounded-full" />
+        <span class="font-3xl text-white">LIQUID</span>
+      </div>
+      <div class="hamburger-menu md:hidden block text-white">
+        <i class="fa-solid fa-bars fa-2xl"></i>
+      </div>
+      <div class="other-info md:flex gap-3 hidden">
+        <button
+          class="uppercase bg-orange-600 text-white text-sm px-2 rounded-lg font-bold"
+        >
+          Create Account
+        </button>
+        <img src="./assets/profile.png" class="w-10" alt="profile-img" />
+      </div>
+    </nav>
+    <!-- navbar ends -->
+  </body>
+</html>

@@ -1,0 +1,131 @@
+<!-- Que - 3
+In continuation of our previous task, where we successfully created a hero section for a landing page designed for a stock market broker, it is now time to showcase some statistical information.
+Below are the reference images for your convenience. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>question 3</title>
+    <!-- linking my CSS file -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- fontawesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- navbar starts -->
+    <nav class="flex justify-between px-2 py-2 bg-[#212224] items-center">
+      <div class="logo w-10 flex items-center gap-2 font-bold">
+        <img src="./assets/logo.jpg" alt="logo" class="rounded-full" />
+        <span class="font-3xl text-white">LIQUID</span>
+      </div>
+      <div class="hamburger-menu md:hidden block text-white">
+        <i class="fa-solid fa-bars fa-2xl"></i>
+      </div>
+      <div class="other-info md:flex gap-3 hidden">
+        <button
+          class="uppercase bg-orange-600 text-white text-sm px-2 rounded-lg font-bold"
+        >
+          Create Account
+        </button>
+        <img src="./assets/profile.png" class="w-10" alt="profile-img" />
+      </div>
+    </nav>
+    <!-- navbar ends -->
+
+    <!-- hero-section starts -->
+    <div
+      class="hero-section flex flex-col md:flex-row bg-[#212224] text-white h-screen"
+    >
+      <div
+        class="content w-full md:w-1/2 flex flex-col justify-center items-start md:pl-[5%] md:pr-[5%] p-2"
+      >
+        <h1 class="md:text-6xl text-5xl">
+          Multi-regulated <br />
+          global broker.
+        </h1>
+        <p class="my-6 text-slate-400">
+          A trusted destination for traders worldwide, Authorised bt FCA, ASIC &
+          FSCA Authorised bt FCA, ASIC & FSCA
+        </p>
+        <button
+          class="border border-orange-600 rounded-md md:py-1 px-3 w-full md:w-auto uppercase py-2"
+        >
+          Discover accounts
+        </button>
+      </div>
+      <div class="hero-illustration w-full md:w-1/2 h-full">
+        <img
+          src="./assets/banner.jpg"
+          alt="hero-illustration"
+          class="w-full h-full object-cover"
+        />
+      </div>
+    </div>
+    <!-- hero-section ends -->
+
+    <!-- stats section starts  -->
+    <div
+      class="stats py-10 px-2 flex md:justify-evenly bg-[#212224] flex-col md:flex-row justify-center items-center gap-5 md:gap-0"
+    >
+      <div class="co co-1 flex gap-3">
+        <img
+          src="./assets/netflix.png"
+          alt="co-logo"
+          class="w-20 h-10 mr-5 md:mr-0"
+        />
+        <span class="bg-green-500 font-bold py-1 px-2 rounded-md"
+          ><i class="fa-sharp fa-solid fa-arrow-up fa-2xs"></i> 1740.05</span
+        >
+      </div>
+      <div class="co co-1 flex gap-3">
+        <img
+          src="./assets/amazon.png"
+          alt="co-logo"
+          class="w-20 h-10 mr-5 md:mr-0 bg-white p-2"
+        />
+        <span class="bg-green-500 font-bold py-1 px-2 rounded-md"
+          ><i class="fa-sharp fa-solid fa-arrow-up fa-2xs"></i> 1740.05</span
+        >
+      </div>
+      <div class="co co-1 flex gap-3">
+        <img
+          src="./assets/facebook.png"
+          alt="co-logo"
+          class="w-20 h-10 mr-5 md:mr-0"
+        />
+        <span class="bg-red-500 font-bold py-1 px-2 rounded-md"
+          ><i class="fa-solid fa-arrow-down fa-2xs"></i> 1740.05</span
+        >
+      </div>
+      <div class="co co-1 flex gap-3">
+        <img
+          src="./assets/tesla.png"
+          alt="co-logo"
+          class="w-20 h-10 mr-5 md:mr-0 p-2 bg-white"
+        />
+        <span class="bg-green-500 font-bold py-1 px-2 rounded-md"
+          ><i class="fa-sharp fa-solid fa-arrow-up fa-2xs"></i> 1740.05</span
+        >
+      </div>
+      <div class="co co-1 flex gap-3">
+        <img
+          src="./assets/microsoft.png"
+          alt="co-logo"
+          class="w-20 h-10 mr-5 md:mr-0"
+        />
+        <span class="bg-red-500 font-bold py-1 px-2 rounded-md"
+          ><i class="fa-solid fa-arrow-down fa-2xs"></i> 1740.05</span
+        >
+      </div>
+    </div>
+    <!-- stats section ends  -->
+  </body>
+</html>

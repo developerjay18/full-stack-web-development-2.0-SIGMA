@@ -1,0 +1,354 @@
+<!-- Que - 7
+In our ongoing assignment, we'll now work on a coding challenge to create a section that displays news articles. Below are some reference images to guide us.-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>question 7</title>
+    <!-- linking my CSS file -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- fontawesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- navbar starts -->
+    <nav class="flex justify-between px-2 py-2 bg-[#212224] items-center">
+      <div class="logo w-10 flex items-center gap-2 font-bold">
+        <img src="./assets/logo.jpg" alt="logo" class="rounded-full" />
+        <span class="font-3xl text-white">LIQUID</span>
+      </div>
+      <div class="hamburger-menu md:hidden block text-white">
+        <i class="fa-solid fa-bars fa-2xl"></i>
+      </div>
+      <div class="other-info md:flex gap-3 hidden">
+        <button
+          class="uppercase bg-orange-600 text-white text-sm px-2 rounded-lg font-bold"
+        >
+          Create Account
+        </button>
+        <img src="./assets/profile.png" class="w-10" alt="profile-img" />
+      </div>
+    </nav>
+    <!-- navbar ends -->
+
+    <!-- hero-section starts -->
+    <div
+      class="hero-section flex flex-col md:flex-row bg-[#212224] text-white h-screen"
+    >
+      <div
+        class="content w-full md:w-1/2 flex flex-col justify-center items-start md:pl-[5%] md:pr-[5%] p-2"
+      >
+        <h1 class="md:text-6xl text-5xl">
+          Multi-regulated <br />
+          global broker.
+        </h1>
+        <p class="my-6 text-slate-400">
+          A trusted destination for traders worldwide, Authorised bt FCA, ASIC &
+          FSCA Authorised bt FCA, ASIC & FSCA
+        </p>
+        <button
+          class="border border-orange-600 rounded-md md:py-1 px-3 w-full md:w-auto uppercase py-2"
+        >
+          Discover accounts
+        </button>
+      </div>
+      <div class="hero-illustration w-full md:w-1/2 h-full">
+        <img
+          src="./assets/banner-2.svg"
+          alt="hero-illustration"
+          class="w-full h-full object-contain"
+        />
+      </div>
+    </div>
+    <!-- hero-section ends -->
+
+    <!-- stats section starts  -->
+    <div
+      class="stats py-[100px] px-2 flex md:justify-evenly bg-[#212224] flex-col md:flex-row justify-center items-center gap-5 md:gap-0"
+    >
+      <div class="co co-1 flex gap-3">
+        <img
+          src="./assets/netflix.png"
+          alt="co-logo"
+          class="w-20 h-10 mr-5 md:mr-0"
+        />
+        <span class="bg-green-500 font-bold py-1 px-2 rounded-md"
+          ><i class="fa-sharp fa-solid fa-arrow-up fa-2xs"></i> 1740.05</span
+        >
+      </div>
+      <div class="co co-1 flex gap-3">
+        <img
+          src="./assets/amazon.png"
+          alt="co-logo"
+          class="w-20 h-10 mr-5 md:mr-0 bg-white p-2"
+        />
+        <span class="bg-green-500 font-bold py-1 px-2 rounded-md"
+          ><i class="fa-sharp fa-solid fa-arrow-up fa-2xs"></i> 1740.05</span
+        >
+      </div>
+      <div class="co co-1 flex gap-3">
+        <img
+          src="./assets/facebook.png"
+          alt="co-logo"
+          class="w-20 h-10 mr-5 md:mr-0"
+        />
+        <span class="bg-red-500 font-bold py-1 px-2 rounded-md"
+          ><i class="fa-solid fa-arrow-down fa-2xs"></i> 1740.05</span
+        >
+      </div>
+      <div class="co co-1 flex gap-3">
+        <img
+          src="./assets/tesla.png"
+          alt="co-logo"
+          class="w-20 h-10 mr-5 md:mr-0 p-2 bg-white"
+        />
+        <span class="bg-green-500 font-bold py-1 px-2 rounded-md"
+          ><i class="fa-sharp fa-solid fa-arrow-up fa-2xs"></i> 1740.05</span
+        >
+      </div>
+      <div class="co co-1 flex gap-3">
+        <img
+          src="./assets/microsoft.png"
+          alt="co-logo"
+          class="w-20 h-10 mr-5 md:mr-0"
+        />
+        <span class="bg-red-500 font-bold py-1 px-2 rounded-md"
+          ><i class="fa-solid fa-arrow-down fa-2xs"></i> 1740.05</span
+        >
+      </div>
+    </div>
+    <!-- stats section ends  -->
+
+    <!-- blog section starts -->
+    <div class="blog-posts bg-[#212224] text-white">
+      <!-- heading section starts -->
+      <div class="head flex px-4 justify-between items-center">
+        <h2 class="md:text-4xl text-3xl">
+          Save time. Get <span class="text-orange-600">higher return</span>
+          <br />
+          Multiply wealth
+        </h2>
+        <button
+          class="border border-orange-600 w-40 max-h-15 py-2 md:px-0 px-4 rounded-md"
+        >
+          Find out more <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+      <!-- heading section end -->
+      <!-- post section starts -->
+      <div
+        class="posts px-7 flex justify-evenly gap-8 md:flex-row flex-col mt-5 md:mt-2"
+      >
+        <div
+          class="post md:w-4/12 w-full bg-[#343536] pl-10 md:my-10 my-2 rounded-lg"
+        >
+          <img src="./assets/ill-1.svg" alt="ill-1" class="w-4/5" />
+          <h3 class="text-3xl my-5">Various assets</h3>
+          <p class="pr-5 pb-3 text-slate-400">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+            illo eligendi sint alias provident aliquam.
+          </p>
+        </div>
+        <div
+          class="post md:w-4/12 w-full bg-[#343536] pl-10 md:my-10 my-2 rounded-lg"
+        >
+          <img src="./assets/ill-2.svg" alt="ill-2" class="w-4/5" />
+          <h3 class="text-3xl my-5">Market Analysis</h3>
+          <p class="pr-5 pb-3 text-slate-400">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+            illo eligendi sint alias provident aliquam.
+          </p>
+        </div>
+        <div
+          class="post md:w-4/12 w-full bg-[#343536] pl-10 md:my-10 my-2 rounded-lg"
+        >
+          <img src="./assets/ill-3.svg" alt="ill-3" class="w-4/5" />
+          <h3 class="text-3xl my-5">Enhcnaced tools</h3>
+          <p class="pr-5 pb-3 text-slate-400">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+            illo eligendi sint alias provident aliquam.
+          </p>
+        </div>
+      </div>
+      <!-- post section ends -->
+    </div>
+    <!-- blog section ends -->
+
+    <!-- service section starts -->
+    <div class="services px-6 py-10">
+      <div class="service-wrapper flex gap-8 md:flex-row flex-col">
+        <div class="service flex gap-3 md:w-1/2 w-full">
+          <img
+            src="./assets/service-icon-1.svg"
+            alt="service-icon-1"
+            class="w-10 h-10 rounded-full"
+          />
+          <div class="content">
+            <h3 class="text-2xl font-semibold">Expert service</h3>
+            <p class="text-slate-500">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem
+              laboriosam officiis ut voluptas quisquam.
+            </p>
+            <button class="text-slate-400 mt-2">Learn more --></button>
+          </div>
+        </div>
+        <div class="service flex gap-3 md:w-1/2 w-full">
+          <img
+            src="./assets/service-icon-2.svg"
+            alt="service-icon-2"
+            class="w-10 h-10 rounded-full"
+          />
+          <div class="content">
+            <h3 class="text-2xl font-semibold">Fully regulated</h3>
+            <p class="text-slate-500">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem
+              laboriosam officiis ut voluptas quisquam.
+            </p>
+            <button class="text-slate-400 mt-2">Learn more --></button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="service-wrapper flex gap-8 md:mt-[4%] md:flex-row mt-[10%] flex-col"
+      >
+        <div class="service flex gap-3 md:w-1/2 w-full">
+          <img
+            src="./assets/service-icon-3.svg"
+            alt="service-icon-3"
+            class="w-10 h-10 rounded-full"
+          />
+          <div class="content">
+            <h3 class="text-2xl font-semibold">Financial strength</h3>
+            <p class="text-slate-500">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem
+              laboriosam officiis ut voluptas quisquam.
+            </p>
+            <button class="text-slate-400 mt-2">Learn more --></button>
+          </div>
+        </div>
+        <div class="service flex gap-3 md:w-1/2 w-full">
+          <img
+            src="./assets/service-icon-4.svg"
+            alt="service-icon-4"
+            class="w-10 h-10 rounded-full"
+          />
+          <div class="content">
+            <h3 class="text-2xl font-semibold">Integrated support</h3>
+            <p class="text-slate-500">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem
+              laboriosam officiis ut voluptas quisquam.
+            </p>
+            <button class="text-slate-400 mt-2">Learn more --></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- service section ends -->
+
+    <!-- steps section starts -->
+    <div class="steps px-4 py-3 text-orange-600">
+      <fieldset
+        class="border-2 border-solid border-orange-600 rounded-md p-3 text-center flex justify-evenly md:flex-row flex-col gap-9 md:gap-0"
+      >
+        <legend class="px-3 py-1 font-bold text-xl">
+          simple steps to start trade.
+        </legend>
+        <div class="step">
+          <i
+            class="fa-solid fa-1 bg-white border border-orange-600 py-5 rounded-full px-6"
+          ></i>
+          <br />
+          <span class="text-slate-500 font-semibold">Register account</span>
+        </div>
+        <div class="step">
+          <i
+            class="fa-solid fa-2 bg-white border border-orange-600 py-5 rounded-full px-6"
+          ></i>
+          <br />
+          <span class="text-slate-500 font-semibold">Fund your account</span>
+        </div>
+        <div class="step">
+          <i
+            class="fa-solid fa-3 bg-white border border-orange-600 py-5 rounded-full px-6"
+          ></i>
+          <br />
+          <span class="text-slate-500 font-semibold">start your trade</span>
+        </div>
+      </fieldset>
+    </div>
+    <!-- steps section ends -->
+
+    <!-- news section start -->
+    <div class="news-box px-4 py-10">
+      <h2 class="text-3xl font-bold">Stay ahead of the curve.</h2>
+      <div class="news-list my-3 md:my-7 flex flex-col md:flex-row">
+        <!-- card-1 -->
+        <div class="news flex md:w-4/12 w-full my-5 md:my-0">
+          <div
+            class="deco-bar flex items-center justify-star gap-3 rotate-90 mt-0 ml-[-55px]"
+          >
+            <div class="content text-orange-600 font-bold uppercase">news</div>
+            <div class="line w-20 bg-orange-600 h-[2px]"></div>
+          </div>
+          <div class="content ml-[-50px]">
+            <h3 class="text-2xl font-semibold">
+              Wall street cautious on 'frothy' stocks, warn bitcoin bubble
+            </h3>
+            <p class="text-slate-700 my-1">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              magnam culpa cum, similique architecto placeat!
+            </p>
+            <button class="font-bold">Read More -></button>
+          </div>
+        </div>
+        <!-- card-2 -->
+        <div class="news flex md:w-4/12 w-full my-5 md:my-0">
+          <div
+            class="deco-bar flex items-center justify-star gap-3 rotate-90 mt-0 ml-[-55px]"
+          >
+            <div class="content text-orange-600 font-bold uppercase">news</div>
+            <div class="line w-20 bg-orange-600 h-[2px]"></div>
+          </div>
+          <div class="content ml-[-50px]">
+            <h3 class="text-2xl font-semibold">
+              will AUD/USD hit 0.8000 in the forseeable future?
+            </h3>
+            <p class="text-slate-700 my-1">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              magnam culpa cum, similique architecto placeat!
+            </p>
+            <button class="font-bold">Read More -></button>
+          </div>
+        </div>
+        <!-- card-3 -->
+        <div class="news flex md:w-4/12 w-full my-5 md:my-0">
+          <div
+            class="deco-bar flex items-center justify-star gap-3 rotate-90 mt-0 ml-[-55px]"
+          >
+            <div class="content text-orange-600 font-bold uppercase">news</div>
+            <div class="line w-20 bg-orange-600 h-[2px]"></div>
+          </div>
+          <div class="content ml-[-50px]">
+            <h3 class="text-2xl font-semibold">
+              How can you use volitality to your advantage ?
+            </h3>
+            <p class="text-slate-700 my-1">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              magnam culpa cum, similique architecto placeat!
+            </p>
+            <button class="font-bold">Read More -></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- news section end -->
+  </body>
+</html>
