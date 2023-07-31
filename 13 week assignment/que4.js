@@ -3,6 +3,12 @@
 function ticketPriceCalc(numberOfChilds, numberOfAdults, numberOfSeniors) {
   let total =
     numberOfChilds * 100 + numberOfAdults * 150 + numberOfSeniors * 120;
+
+  console.log(`No of childs : ${numberOfChilds}`);
+  console.log(`No of Adults : ${numberOfAdults}`);
+  console.log(`No of Seniors : ${numberOfSeniors}`);
+  console.log('--------------------------');
+
   console.log(`The total ticket price is ${total}`);
 }
 

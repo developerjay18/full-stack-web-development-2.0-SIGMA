@@ -2,6 +2,7 @@
 
 function loginAuthentication(username, password) {
   if (username === 'admin' && password === '12345') {
+    console.log(`username is : ${username} and password is : ${password}`);
     console.log('Login sucessfull');
   } else {
     console.log('Invalid credentials');
@@ -10,6 +11,3 @@ function loginAuthentication(username, password) {
 
 // example 1
 loginAuthentication('admin', '12345');
-
-// example 2
-loginAuthentication('rahul', '54321');

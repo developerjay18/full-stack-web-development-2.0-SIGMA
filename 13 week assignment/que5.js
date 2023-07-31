@@ -21,7 +21,3 @@ function deliveryTimeGiver(packageType) {
 
 // example 1
 deliveryTimeGiver('standard');
-// example 2
-deliveryTimeGiver('express');
-// example 3
-deliveryTimeGiver('overnight');

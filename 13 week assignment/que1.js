@@ -3,6 +3,9 @@
 function finalPriceCalculator(totalValue, discountPercentage) {
   let discount = (discountPercentage / 100) * totalValue;
   let finalPrice = totalValue - discount;
+  console.log(
+    `Original price is : ${totalValue} and discount is ${discountPercentage}%`
+  );
   return `The final price after discount is : ${finalPrice}`;
 }
 
