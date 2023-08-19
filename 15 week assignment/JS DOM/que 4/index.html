@@ -1,0 +1,50 @@
+<!-- 
+4. You are tasked to create form validation using JS DOM. Ensure that the username must be at least 3 characters long, and the password must be at least 8 characters long. On form submission, display an alert stating "Form Validation successful"
+if the conditions are met, otherwise, show "Form Validation failed." Remember, on form submission, the webpage must not be reloaded. 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question 4</title>
+    <!-- linking my JS file -->
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="container" style="margin-left: 40%">
+      <h1>Sign Up Form</h1>
+      <form action="#">
+        <label for="name">Name : </label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="(minimum 3 characters)"
+        />
+        <br />
+        <br />
+        <label for="email">email : </label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+        />
+        <br />
+        <br />
+        <label for="password">Password : </label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="(minimum 8 characters)"
+        />
+        <br />
+        <br />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
