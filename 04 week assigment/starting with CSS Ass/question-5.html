@@ -1,0 +1,30 @@
+<!-- Que - 5
+create a webpage with an image that is hidden until it is hovered over.Use a heading above the image that says hover below to reveal a surprise. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=`, initial-scale=1.0" />
+    <title>Question 5</title>
+    <style>
+      img {
+        cursor: pointer;
+        margin: 0 auto;
+        opacity: 0;
+      }
+      img:hover {
+        opacity: 100;
+      }
+    </style>
+  </head>
+  <body style="text-align: center">
+    <header>
+      <h1>Hover below to reveal a surprise</h1>
+    </header>
+    <main>
+      <img src="./media/greenary.jpg" alt="greenary-img" width="500px" />
+    </main>
+  </body>
+</html>
